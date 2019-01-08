@@ -3,6 +3,9 @@ package gettingstarted
 fun main(args: Array<String>) {
     val a = Book(10)
     println(a.toString()) // string representation for object
+
+    Book.printHI()
+
 }
 
 // data class must have at least one primay constructor with at leat one property
