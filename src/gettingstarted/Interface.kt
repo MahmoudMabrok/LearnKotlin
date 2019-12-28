@@ -10,9 +10,10 @@ interface arithOP {
 }
 
 class aithEmp : arithOP {
-    override var maxInt: Int = 1  // intial value must be assigned
+    override var maxInt: Int = 1  // initial value must be assigned
         get() = field                  // field  represent maxInt
         set(value) {
+            print("set is called")
             field = value
         }
 
